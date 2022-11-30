@@ -1,24 +1,21 @@
-# bus-pass
+# BusInfo
 
-## Project setup
-```
-npm install
-```
+## 功能介紹
+- 各縣市公車路線查詢
+- 公車路線自動規劃
+- 附近車站位置
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 外部資源
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### 交通部TDX API
+提供各項公車資訊
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Google Maps JavaScript API
+提供位置資訊及地圖呈現
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 使用技術
+- Vue CLI
+- Vue Router
+- Vuex
+- Axios
+- Geolocation API(自身位置定位)
