@@ -22,6 +22,6 @@ export function busEstimatedTime(city,RouteUID){
 
 // RoutePlan資料
 export function busRoutePlan({origin,destination}){
-    return request({method:"get",url:`/maas/routing?origin=${origin.lat},${origin.lng}&destination=${destination.lat},${destination.lng}&gc=1&top=1&transit=5&transfer_time=5,15&last_mile_mode=0`});
+    return request({method:"get",url:`/maas/routing?origin=${origin.lat},${origin.lng}&destination=${destination.lat},${destination.lng}&gc=1&top=1&transit=5&transfer_time=5,15&last_mile_mode=0&first_mile_mode=0&last_mile_time=10`});
 }
 
